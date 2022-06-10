@@ -40,7 +40,6 @@ public class LinkedList<K> {
         }
     }
 
-
     public K pop() {
         K poppedData = head.key;
         head = head.next;
